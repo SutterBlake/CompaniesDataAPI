@@ -9,7 +9,7 @@ namespace CompaniesDataAPI.DAL
 {
     public class CompanyDBContext : DbContext
     {
-        public CompanyDBContext()
+        public CompanyDBContext() : base("CompaniesDataAPI")
         {
         }
 
