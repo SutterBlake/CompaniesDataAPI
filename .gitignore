@@ -328,3 +328,6 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/CompaniesDataAPI/SQL Scripts
+/CompaniesDataAPI.Tests/Controllers/CompaniesControllerTest.cs
+/CompaniesDataAPI documentation.docx
