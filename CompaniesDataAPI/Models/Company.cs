@@ -27,8 +27,8 @@ namespace CompaniesDataAPI.Models
         [MaxLength(12, ErrorMessage = "'ISIN' length cannot exceed 12")]
         public string ISIN { get; set; }
 
-        [Display(Name = "CompanyName")]
-        [MaxLength(50, ErrorMessage = "'Email' length cannot exceed 50")]
+        [Display(Name = "WebsiteURL")]
+        [MaxLength(50, ErrorMessage = "'Website URL' length cannot exceed 50")]
         public string WebsiteURL { get; set; }
 
         [Display(Name = "CreationDate")]
