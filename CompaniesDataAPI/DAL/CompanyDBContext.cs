@@ -7,12 +7,13 @@ using System.Web;
 
 namespace CompaniesDataAPI.DAL
 {
-    public class CompanyDBContext : DbContext
+    public class CompanyDBContext : DbContext, ICompanyDBContext
     {
         public CompanyDBContext() : base("CompaniesDataAPI")
         {
         }
 
         public DbSet<Company> Companies { get; set; }
+
     }
 }
